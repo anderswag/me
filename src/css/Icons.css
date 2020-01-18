@@ -1,0 +1,19 @@
+.icons {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 50px;
+  color: #989898;
+  height: 100px;
+  cursor: pointer;
+}
+
+.icons_container {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}

@@ -1,0 +1,80 @@
+.bio {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-top: -150px;
+  /* border: 3px solid blue; */
+}
+
+.bio-content {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  background: black;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  /* border: 3px solid pink; */
+}
+
+.bio-skill {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-skill_box {
+  color: #989898;
+  font-size: 24px;
+  width: 230px;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.bio-content_text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: 1px solid white; */
+}
+
+.bio-content_text p {
+  margin: 0;
+}
+
+.bio-content_text__subtext {
+  color: #989898;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 850px) {
+  .bio-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0;
+  }
+
+  .bio-content_text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .bio-content_text__subtext,
+  .bio-skill_box {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bio-content {
+    width: 85%;
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  background: transparent;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 300px;
+  /* background: red; */
+}
+
+.header-content a {
+  font-family: "InterExtraBold";
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-decoration: none;
+}

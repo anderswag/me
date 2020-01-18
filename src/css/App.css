@@ -1,0 +1,26 @@
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/TiemposHeadline-Regular.otf);
+}
+
+@font-face {
+  font-family: InterExtraBold;
+  src: url(../fonts/Inter-ExtraBold.woff);
+}
+@font-face {
+  font-family: InterSemiBold;
+  src: url(../fonts/Inter-SemiBold.woff);
+}
+
+@font-face {
+  font-family: InterBold;
+  src: url(../fonts/Inter-Bold.woff);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  background-color: white;
+}
