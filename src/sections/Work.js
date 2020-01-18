@@ -75,8 +75,8 @@ class Work extends React.Component {
               and job-seekers closer to each other.
             </p>
             <p className="work-job_description">
-              Focused on delivering seamless user experiences on on mobile
-              devices using React Native.
+              Focused on delivering seamless user experiences on mobile devices
+              using React Native.
             </p>
             <div>
               <a href={employUrl} className="work-job_link">
