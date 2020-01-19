@@ -22,7 +22,7 @@ const Icons = () => {
       <div className="icons_container">
         {iconArray.map(i => {
           return (
-            <a href={i.url} style={{ color: "inherit" }}>
+            <a key={i.url} href={i.url} style={{ color: "inherit" }}>
               <FontAwesomeIcon key={i.url} icon={i.icon} />
             </a>
           );
