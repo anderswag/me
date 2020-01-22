@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { HashRouter } from "react-router-dom";
 import "normalize.css";
 import "css/App.css";
 
@@ -16,16 +17,18 @@ function App() {
   const scrollToWork = () => scrollToRef(workRef);
   const scrollToMe = () => scrollToRef(meRef);
   return (
-    <div className="app">
-      <Header
-        onWorkClick={() => scrollToWork()}
-        onMeClick={() => scrollToMe()}
-      />
-      <Hero />
-      <Bio meRef={meRef} />
-      <Work workRef={workRef} />
-      <Footer />
-    </div>
+    <HashRouter basename="/">
+      <div className="app">
+        <Header
+          onWorkClick={() => scrollToWork()}
+          onMeClick={() => scrollToMe()}
+        />
+        <Hero />
+        <Bio meRef={meRef} />
+        <Work workRef={workRef} />
+        <Footer />
+      </div>
+    </HashRouter>
   );
 }
 
